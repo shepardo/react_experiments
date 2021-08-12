@@ -1,0 +1,30 @@
+#cuadro {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: peque 5s infinite;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+}
+
+@keyframes peque {
+    0% {
+        top: 30px;
+        left: 30px;
+        width: 180px;
+        height: 180px;
+        border-radius: 30px;
+        /*background-color: rbg(0, 255, 55);*/
+        background-color: rgb(255, 208, 0);
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50px;
+        background-color: rgb(255, 208, 0);
+    }
+}
